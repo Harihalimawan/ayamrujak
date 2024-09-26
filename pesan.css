@@ -1,0 +1,222 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 0;
+    margin-bottom: 10px; /* Menambahkan jarak antara header dan slider */
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    background: #f7f7f7;
+}
+
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input, .contact textarea {
+    padding: 1rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ddd;
+    font-size: 1.1rem;
+}
+
+.contact button {
+    padding: 1rem;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background 0.3s ease;
+}
+
+.contact button:hover {
+    background: #ff6347;
+}
+
+.menu-container {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+hr {
+    width: 50px;
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
+}
+
+#contact-map {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.contact-map-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.contact-left {
+    background-color: #fff;
+    padding: 40px;
+    width: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-left h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.contact-left p {
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.contact-left form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-left input, .contact-left textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.contact-left textarea {
+    resize: none;
+    height: 100px;
+}
+
+.contact-left button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-left button:hover {
+    background-color: #555;
+}
+
+.contact-info {
+    background-color: #000;
+    padding: 20px;
+    width: 30%;
+    color: #fff;
+    position: relative;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.map-container {
+    flex: 1;
+    min-width: 900px; /* Lebar minimum peta */
+    max-width: 700px; /* Lebar maksimum peta */
+    height: 300px; /* Mengatur tinggi peta */
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: auto;
+}
